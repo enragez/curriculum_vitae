@@ -82,6 +82,15 @@ a {
     bottom: 50px;
     left: 50%;
 }
+
+.header-arrow:hover {
+    color: red;
+}
+
+.arrow-clicked {
+    color: red;
+    transform: translateY(15px);
+}
     
 .skills {
     padding-top: 70px;
