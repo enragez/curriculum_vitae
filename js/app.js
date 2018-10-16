@@ -1,13 +1,13 @@
 $(document).ready(function(){ 
     
-    var headerArrow = $("#header-arrow");
+    var headerArrow = $(".header-arrow");
     
-    headerArrow.click(function() {
+    headerArrow.click(function(event){
+        event.preventDefault();
         headerArrow.addClass('arrow-clicked');
-        
-        $('html,body').animate({
-            scrollTop: $(".skills").offset().top
-        }, 1000, null, function() {
+        $('html, body').stop().animate({
+            scrollTop: $(".skills").position().top
+        }, 600, null, function() {
             headerArrow.removeClass('arrow-clicked');
         });
     });

@@ -81,14 +81,10 @@ a {
     position: absolute;
     bottom: 50px;
     left: 50%;
-}
-
-.header-arrow:hover {
     color: red;
 }
 
 .arrow-clicked {
-    color: red;
     transform: translateY(15px);
 }
     
