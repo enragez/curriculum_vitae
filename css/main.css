@@ -168,6 +168,10 @@ p.footer-social-icons a:hover {
     color: #FFE400;
 }
 
+.contact-me {
+    margin-top: 25px;
+}
+
 .button {
     font-weight: 700;
     text-decoration: none;
